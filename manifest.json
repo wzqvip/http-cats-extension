@@ -3,6 +3,9 @@
   "name": "HTTP Cats Error Pages",
   "version": "1.0.0",
   "description": "Replace error pages with http.cat images for HTTP errors.",
+  "icons": {
+    "128": "icons/128.png"
+  },
   "permissions": ["tabs", "webNavigation", "webRequest"],
   "host_permissions": ["<all_urls>"],
   "background": {
