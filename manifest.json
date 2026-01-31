@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "HTTP Cats Error Pages",
+  "version": "1.0.0",
+  "description": "Replace error pages with http.cat images for HTTP errors.",
+  "permissions": ["tabs", "webNavigation", "webRequest"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

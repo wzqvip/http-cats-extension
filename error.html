@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTTP Error</title>
+    <link rel="stylesheet" href="error.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="card">
+        <header class="header">
+          <div class="code" id="status-code">---</div>
+          <div class="title" id="main-title">该网页无法正常运作</div>
+          <div class="subtitle" id="subtitle"></div>
+        </header>
+        <div class="image-wrap">
+          <img id="cat-image" alt="HTTP cat" />
+        </div>
+        <p class="reason" id="reason"></p>
+        <p class="url-info" id="url-info" style="display: none;">
+          <a id="original-url-link" href="#" target="_blank" rel="noreferrer" class="url-link"></a>
+          <button id="copy-url-btn" class="copy-btn" title="Copy URL">📋</button>
+        </p>
+        <p class="note">
+          Image provided by <a href="https://http.cat/" target="_blank" rel="noreferrer">http.cat</a>.
+        </p>
+      </section>
+    </main>
+    <script src="error.js"></script>
+  </body>
+</html>
