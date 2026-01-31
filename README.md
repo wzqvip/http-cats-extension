@@ -1,5 +1,9 @@
 # HTTP Cats Error Pages
 
+> Replace HTTP error pages with adorable cat images. A Chrome extension that intercepts browser errors and displays them with style powered by http.cat.
+
+**Features:** All HTTP error codes • Multi-language UI • One-click URL copy • Works on Chrome/Edge/Chromium
+
 [English](#english) | [中文](#中文)
 
 ---
