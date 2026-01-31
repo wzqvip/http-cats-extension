@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "description": "Replace error pages with http.cat images for HTTP errors.",
   "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
     "128": "icons/128.png"
   },
   "permissions": ["tabs", "webNavigation", "webRequest"],

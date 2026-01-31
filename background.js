@@ -41,6 +41,8 @@ function redirectToErrorPage(tabId, statusCode, originalUrl, reason) {
   markHandled(tabId);
   chrome.tabs.update(tabId, {
     url: chrome.runtime.getURL(`error.html?${params.toString()}`)
+  }).catch((error) => {
+    console.warn(`Failed to update tab ${tabId}:`, error);
   });
 }
 
